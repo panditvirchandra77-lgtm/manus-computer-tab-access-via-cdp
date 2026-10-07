@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Screenshot / output artifacts
+*.png
+*.jpg
+/tmp/
+out/
+
+# Secrets — never commit these
+.env
+*.token
+*.pem
+id_rsa*
